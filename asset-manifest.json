@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/online-docs-client/static/css/main.ba9af64f.css",
-    "main.js": "/online-docs-client/static/js/main.e47e2721.js",
+    "main.js": "/online-docs-client/static/js/main.9c4aadfd.js",
     "index.html": "/online-docs-client/index.html",
     "main.ba9af64f.css.map": "/online-docs-client/static/css/main.ba9af64f.css.map",
-    "main.e47e2721.js.map": "/online-docs-client/static/js/main.e47e2721.js.map"
+    "main.9c4aadfd.js.map": "/online-docs-client/static/js/main.9c4aadfd.js.map"
   },
   "entrypoints": [
     "static/css/main.ba9af64f.css",
-    "static/js/main.e47e2721.js"
+    "static/js/main.9c4aadfd.js"
   ]
 }
