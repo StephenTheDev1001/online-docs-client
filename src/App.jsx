@@ -3,25 +3,26 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Navigate
+  Navigate,
+  HashRouter
 } from 'react-router-dom'
 import { v4 as uuidv4 } from 'uuid';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route
           exact
           path='/'
-          element={<Navigate to={`online-docs-client/documents/${uuidv4()}`} />}
+          element={<Navigate to={`documents/${uuidv4()}`} />}
         />
         <Route
           path='/documents/:id'
           element={<TextEditor />}
         />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
