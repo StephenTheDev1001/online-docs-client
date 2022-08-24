@@ -20,7 +20,7 @@ export default function TextEditor() {
   const { id: documentId } = useParams()
 
   useEffect(() => {
-    const s = io('http://localhost:3001') // socket location
+    const s = io('https://ztephen-online-doc-server.herokuapp.com/') // socket location
     setSocket(s)
 
     return () => {
