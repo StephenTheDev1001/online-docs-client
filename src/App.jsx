@@ -14,7 +14,7 @@ function App() {
         <Route
           exact
           path='/'
-          element={<Navigate to={`documents/${uuidv4()}`} />}
+          element={<Navigate to={`online-docs-client/documents/${uuidv4()}`} />}
         />
         <Route
           path='/documents/:id'
