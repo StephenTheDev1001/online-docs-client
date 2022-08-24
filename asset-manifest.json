@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/online-docs-client/static/css/main.ba9af64f.css",
+    "main.js": "/online-docs-client/static/js/main.eccda64b.js",
+    "index.html": "/online-docs-client/index.html",
+    "main.ba9af64f.css.map": "/online-docs-client/static/css/main.ba9af64f.css.map",
+    "main.eccda64b.js.map": "/online-docs-client/static/js/main.eccda64b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba9af64f.css",
+    "static/js/main.eccda64b.js"
+  ]
+}
